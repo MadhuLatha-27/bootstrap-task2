@@ -3,36 +3,32 @@
 {% block title %}Home{% endblock %}
 
 {% block content %}
-<section class="text-center py-5 bg-light">
-  <h1>Welcome to My Bootstrap Project</h1>
-  <p class="lead">Recreated using Nunjucks + Vite</p>
-  <a href="about.html" class="btn btn-primary btn-lg">Learn More</a>
-</section>
+<div class="container my-5">
+  <h1>📄 Internship Task 2 – Strict Tech Stack Implementation</h1>
+  <h2>🎯 Objective</h2>
+  <p>Recreate the deliverables from Task 1 (Internship Task Document) using a templating engine and a bundler/task runner.</p>
+  
+  <h2>🛠️ Chosen Technology Stack</h2>
+  <ul>
+    <li>Templating Engine: Nunjucks</li>
+    <li>Bundler/Task Runner: Vite</li>
+  </ul>
 
-<div class="row text-center g-4 mt-5">
-  <div class="col-md-4">
-    <div class="card h-100 shadow-sm">
-      <div class="card-body">
-        <h5 class="card-title">Responsive</h5>
-        <p class="card-text">Pages adapt seamlessly to mobile, tablet, and desktop screens.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="card h-100 shadow-sm">
-      <div class="card-body">
-        <h5 class="card-title">Modern Design</h5>
-        <p class="card-text">Built using Bootstrap 5 with utility classes for styling.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="card h-100 shadow-sm">
-      <div class="card-body">
-        <h5 class="card-title">Easy to Customize</h5>
-        <p class="card-text">Clean structure so you can extend and modify easily.</p>
-      </div>
-    </div>
-  </div>
+  <h2>📂 Folder Structure</h2>
+  <pre>
+bootstrap-task2/
+├── src/
+│   ├── templates/
+│   │   ├── index.njk
+│   │   ├── about.njk
+│   │   └── contact.njk
+│   └── assets/
+│       ├── styles.css
+│       └── ...
+├── dist/
+├── package.json
+├── vite.config.js
+└── README.md
+  </pre>
 </div>
 {% endblock %}

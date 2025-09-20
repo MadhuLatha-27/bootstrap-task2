@@ -1,15 +1,18 @@
 {
   "name": "project-task2",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Bootstrap Task 2 Project using Nunjucks + Vite",
   "homepage": "https://madhulatha-27.github.io/bootstrap-task2",
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "node build.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+  "keywords": [],
+  "author": "MadhuLatha",
+  "license": "ISC",
   "devDependencies": {
     "nunjucks": "^3.2.4",
     "vite": "^4.5.14",
